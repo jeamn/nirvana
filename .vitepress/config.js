@@ -36,7 +36,7 @@ async function getConfig() {
         { text: "🏠 首页", link: "/index" },
         { text: "📅 归档", link: "/more/docs" },
         { text: "📂 分类", link: "/more/tags" },
-        { text: "👫 友情链接", link: "/more/Friendship" },
+        // { text: "👫 友情链接", link: "/more/Friendship" },
       ],
     },
     dest: "public",

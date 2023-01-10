@@ -115,9 +115,9 @@ export default {
             event: false,
           },
         ],
-        nickName: "F**king man",
+        nickName: "Jeamn",
         skill: ["🚗 Drive", "🧑🏻‍💻 Slicing", "🍻 Drink"],
-        // synopsis:["F**king man"],
+        synopsis:["一个即将失业的前端切图仔..."],
       },
     };
   },
