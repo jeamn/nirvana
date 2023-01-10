@@ -98,7 +98,7 @@ export class Observer {
 ```
 
 
-💡 为什么数组的依赖放 Observer 中？
+> 为什么数组的依赖放 Observer 中？
 是因为在 getter 中可以访问到 Observer 实例，在 Array 拦截器中也可以访问到 Observer 实例。
 
 
@@ -186,10 +186,10 @@ export class Observer {
 
 这样我们就可以通过数组数据的 '__ob__' 属性拿到 Observer 实例，然后拿到该实例的 '__ob__' 上的 dep 依赖列表。
 
-💡 __ob__ 的作用也可以用来标记当前 value 是否已经被 Observer 转换成了响应式数据。也就是说，所有被侦测了变化的数据身上都会有一个 __ob__ 属性来表示它们是响应式的。
+> __ob__ 的作用也可以用来标记当前 value 是否已经被 Observer 转换成了响应式数据。也就是说，所有被侦测了变化的数据身上都会有一个 __ob__ 属性来表示它们是响应式的。
 
 
-💡 value 被标记了 __ob__ ，所以可以直接通过 value.__ob__ 来访问 observer 实例，如果是Array 拦截器，也可以直接通过 this.__ob__ 来访问 Observer 实例。
+> value 被标记了 __ob__ ，所以可以直接通过 value.__ob__ 来访问 observer 实例，如果是Array 拦截器，也可以直接通过 this.__ob__ 来访问 Observer 实例。
 
 
 ## 九、向数组的依赖发送通知

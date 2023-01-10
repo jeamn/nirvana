@@ -21,7 +21,7 @@ vm.$watch( expOrFn, callback, [options] )
 
 回调函数调用时，会从参数得到新数据和旧数据。
 
-💡 vm.$watch 返回一个取消观察函数，用来停止触发回调
+> vm.$watch 返回一个取消观察函数，用来停止触发回调
 
 
 deep：可是设置是否侦测对象内部值的变化。
@@ -61,10 +61,10 @@ export class Watcher {
 }
 ```
 
-💡 当 expOrFn 是函数时，Watcher 会同时观察 expOrFn 函数中读取的所有 Vue.js 实例上的响应式数据。
+> 当 expOrFn 是函数时，Watcher 会同时观察 expOrFn 函数中读取的所有 Vue.js 实例上的响应式数据。
 
 
-💡 取消数据观察的本质：
+> 取消数据观察的本质：
 把 watcher 实例从当前正在观察的状态的依赖列表中删除。
 
 

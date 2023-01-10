@@ -254,7 +254,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 30%;
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/bg2.jpg");
   height: 450px;
   position: relative;
   overflow: hidden;
