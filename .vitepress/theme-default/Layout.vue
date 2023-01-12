@@ -18,7 +18,7 @@
         </template>
       </SideBar>
     </aside>
-    <div class="home-bg" v-if="enableHome">
+    <div class="home-bg" :class="currentImgClass" v-if="enableHome">
       <div class="content-bg">
         <h1>
           <p>淡泊明志，宁静致远。</p>
@@ -191,6 +191,11 @@ export default {
     // TODO: route only changes when the pathname changes
     // listening to hashchange does nothing because it's prevented in router
 
+    const currentImgClass = computed(() => {
+      const items = [1,2,3,4,5];
+      return `home-bg${items[Math.floor(Math.random()*items.length)]}`;
+    })
+
     return {
       showNavbar,
       showSidebar,
@@ -198,6 +203,7 @@ export default {
       pageClasses,
       enableHome,
       toggleSidebar,
+      currentImgClass,
     };
   },
 };
@@ -254,11 +260,15 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 30%;
-  background-image: url("../images/bg2.jpg");
   height: 450px;
   position: relative;
   overflow: hidden;
 }
+.home-bg1 { background-image: url("../images/bg1.jpg"); }
+.home-bg2 { background-image: url("../images/bg2.jpg"); }
+.home-bg3 { background-image: url("../images/bg3.jpg"); }
+.home-bg4 { background-image: url("../images/bg4.jpg"); }
+.home-bg5 { background-image: url("../images/bg5.jpg"); }
 .home {
   display: flex !important;
 }
