@@ -1,6 +1,6 @@
 ---
 date: 2017-08-19
-title: ES6笔记之模块化
+title: 【JavaScript】ES6笔记之模块化
 tags:
   - ES6
 ---

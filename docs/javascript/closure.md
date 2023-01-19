@@ -1,6 +1,6 @@
 ---
 date: 2023-01-11
-title: 闭包
+title: 【JavaScript】闭包
 tags: 
   - JavaScript
 ---

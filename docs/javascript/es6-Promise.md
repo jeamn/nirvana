@@ -1,6 +1,6 @@
 ---
 date: 2017-08-16
-title: ES6笔记之Promise用法
+title: 【JavaScript】ES6笔记之Promise用法
 tags:
   - ES6
 ---

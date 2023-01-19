@@ -1,6 +1,6 @@
 ---
 date: 2023-01-11
-title: 作用域
+title: 【JavaScript】作用域
 tags: 
   - JavaScript
 ---

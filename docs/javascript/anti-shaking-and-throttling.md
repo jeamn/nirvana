@@ -1,6 +1,6 @@
 ---
 date: 2017-08-09
-title: 防抖动和节流阀
+title: 【JavaScript】防抖动和节流阀
 tags:
   - JavaScript
 ---

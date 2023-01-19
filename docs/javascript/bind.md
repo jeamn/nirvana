@@ -1,6 +1,6 @@
 ---
 date: 2023-01-11
-title: bind 原理
+title: 【JavaScript】bind 原理
 tags: 
   - JavaScript
 ---

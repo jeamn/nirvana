@@ -72,7 +72,7 @@ export default defineComponent({
     // 初始化页码信息
     const initPage = reactive({
       page: 0,
-      pageSize: 10,
+      pageSize: 100,
     });
 
     // 格式化数据

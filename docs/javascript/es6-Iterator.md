@@ -1,6 +1,6 @@
 ---
 date: 2017-08-18
-title: ES6笔记之Iterator遍历器
+title: 【JavaScript】ES6笔记之Iterator遍历器
 tags:
   - ES6
 ---

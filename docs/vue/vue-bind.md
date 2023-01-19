@@ -1,6 +1,6 @@
 ---
 date: 2019-03-22
-title: vue 的双向绑定原理
+title: 【Vue】vue 的双向绑定原理
 tags: 
   - Vue
 ---

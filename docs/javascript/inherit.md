@@ -1,6 +1,6 @@
 ---
 date: 2023-01-11
-title: 继承
+title: 【JavaScript】继承
 tags: 
   - JavaScript
 ---

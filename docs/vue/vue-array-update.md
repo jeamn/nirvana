@@ -1,6 +1,6 @@
 ---
 date: 2019-03-26
-title: 从 vue 双向数据绑定到数组更新机制
+title: 【Vue】从 vue 双向数据绑定到数组更新机制
 tags: 
   - Vue
 ---
