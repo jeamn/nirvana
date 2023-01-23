@@ -1,0 +1,1 @@
+import{q as e,g as t}from"./common-874b6af4.js";const r='{"title":"Home","frontmatter":{"page":true,"home":true,"date":"2021-10-07T00:00:00.000Z","title":"首页","describe":"首页"},"relativePath":"more/index.md","lastUpdated":1674123475563.6135}';var a={};a.render=function(r,a,o,d,m,i){return e(),t("div")};export{r as __pageData,a as default};
